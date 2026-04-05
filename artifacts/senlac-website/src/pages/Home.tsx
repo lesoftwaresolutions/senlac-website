@@ -4,6 +4,7 @@ import OfferCard from "@/components/OfferCard";
 import { Wifi, Car, Award, Star, MapPin, Phone, Mail } from "lucide-react";
 
 const BOOKING_URL = "https://via.eviivo.com/SenlacTN34";
+const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
 
 const features = [
   { icon: Wifi, label: "Free High-Speed WiFi" },
@@ -12,23 +13,21 @@ const features = [
   { icon: Star, label: "Highly Rated" },
 ];
 
-const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
-
 const roomPreviews = [
   {
-    name: "Double Ensuite",
-    description: "Spacious double room with private ensuite shower and WC.",
-    img: `${BASE}28.jpg`,
+    name: "Double Room (Ensuite)",
+    description: "Spacious double room with private ensuite shower and WC. Sleeps 2.",
+    img: `${BASE}01.jpg`,
   },
   {
-    name: "Family Room",
-    description: "Large family room for up to 4 guests with private ensuite.",
-    img: `${BASE}26.jpg`,
+    name: "Family Room (Private Bathroom)",
+    description: "Family room sleeping up to 3 guests with private bathroom.",
+    img: `${BASE}02.jpg`,
   },
   {
-    name: "Single Room",
-    description: "Cozy single room perfect for solo travellers.",
-    img: `${BASE}30.jpg`,
+    name: "Single Room (Shared Bathroom)",
+    description: "Cozy single room perfect for solo travellers. Shared bathroom.",
+    img: `${BASE}27.jpg`,
   },
 ];
 

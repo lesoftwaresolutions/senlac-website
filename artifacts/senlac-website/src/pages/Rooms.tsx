@@ -1,47 +1,15 @@
 import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 
-const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
+const G = (n: string) => `https://www.senlacguesthouse.co.uk/resources/gallery/${n}`;
 
 const rooms = [
-  {
-    type: "Single",
-    maxGuests: 1,
-    name: "Single Room (Shared Bathroom)",
-    description:
-      "Cozy single room perfect for solo travellers. Features shared bathroom access with basin in room. A comfortable and affordable option for those exploring Hastings on their own.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "TV with Freeview" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Hairdryer" },
-    ],
-    imageUrl: `${BASE}08.jpg`,
-    imageAlt: "Single room at Senlac Guest House",
-  },
-  {
-    type: "Single",
-    maxGuests: 1,
-    name: "Single Room (Ensuite)",
-    description:
-      "Private single room with ensuite shower and WC. Perfect for the solo traveller who prefers their own private facilities. Includes all standard amenities.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Ensuite Shower" },
-      { label: "TV with Freeview" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Hairdryer" },
-    ],
-    imageUrl: `${BASE}30.jpg`,
-    imageAlt: "Single ensuite room at Senlac Guest House",
-    reverse: true,
-  },
   {
     type: "Double",
     maxGuests: 2,
     name: "Double Room (Ensuite)",
     description:
-      "Spacious double room with private ensuite shower and WC. Ideal for couples or those wanting extra comfort. Includes an ironing board for longer stays.",
+      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the flat-screen TV and iPod docking station are offered for your entertainment. A coffee/tea maker and a refrigerator are supplied, bathrobes and complimentary toiletries are included.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
@@ -50,42 +18,84 @@ const rooms = [
       { label: "Ironing Board" },
       { label: "Hairdryer" },
     ],
-    imageUrl: `${BASE}28.jpg`,
-    imageAlt: "Double ensuite room at Senlac Guest House",
+    imageUrl: G("01.jpg"),
+    imageAlt: "Double Ensuite Room — green striped décor at Senlac Guest House",
   },
   {
-    type: "Twin",
+    type: "Double",
     maxGuests: 2,
-    name: "Twin Room (Ensuite)",
+    name: "Double Room (Shared Bathroom)",
     description:
-      "Twin room with two single beds and private ensuite. Perfect for friends travelling together or guests who prefer separate beds, with all the comforts of home.",
+      "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, flat-screen TV, iPod docking station and tea/coffee making facilities. Shared bathroom with bathtub and shower combination.",
     amenities: [
       { label: "Free WiFi" },
-      { label: "Ensuite Shower" },
       { label: "TV with Freeview" },
       { label: "Tea/Coffee Tray" },
       { label: "Hairdryer" },
     ],
-    imageUrl: `${BASE}27.jpg`,
-    imageAlt: "Twin ensuite room at Senlac Guest House",
-    reverse: true,
+    imageUrl: G("06.jpg"),
+    imageAlt: "Double Room with Shared Bathroom at Senlac Guest House",
+  },
+  {
+    type: "Single",
+    maxGuests: 1,
+    name: "Single Room (Shared Bathroom)",
+    description:
+      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the flat-screen TV and iPod docking station are available for your entertainment. A coffee/tea maker is supplied. Shared bathroom access.",
+    amenities: [
+      { label: "Free WiFi" },
+      { label: "TV with Freeview" },
+      { label: "Tea/Coffee Tray" },
+      { label: "Hairdryer" },
+    ],
+    imageUrl: G("27.jpg"),
+    imageAlt: "Single Room with Shared Bathroom at Senlac Guest House",
   },
   {
     type: "Family",
-    maxGuests: 4,
-    name: "Family Room (Ensuite)",
+    maxGuests: 3,
+    name: "Family Room (Ensuite – Small)",
     description:
-      "Large room for families (2 Adults & up to 2 Children) with private ensuite. Features a double bed and bunk beds, plus a mini fridge for added convenience. Everyone will feel right at home.",
+      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, flat-screen TV with iPod docking station, coffee/tea maker, bathrobes and complimentary toiletries are all provided.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
       { label: "TV with Freeview" },
       { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
-    imageUrl: `${BASE}26.jpg`,
-    imageAlt: "Family ensuite room at Senlac Guest House",
+    imageUrl: G("05.jpg"),
+    imageAlt: "Family Room Ensuite Small at Senlac Guest House",
+  },
+  {
+    type: "Family",
+    maxGuests: 3,
+    name: "Family Room (Private Bathroom – Small)",
+    description:
+      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, flat-screen TV with iPod docking station, coffee/tea maker, bathrobes and complimentary toiletries included. Ideal for a small family or group.",
+    amenities: [
+      { label: "Free WiFi" },
+      { label: "TV with Freeview" },
+      { label: "Tea/Coffee Tray" },
+      { label: "Hairdryer" },
+    ],
+    imageUrl: G("02.jpg"),
+    imageAlt: "Family Room Private Bathroom Small — rose floral décor at Senlac Guest House",
+  },
+  {
+    type: "Family",
+    maxGuests: 3,
+    name: "Family Room (Shared Bathroom – Garden View)",
+    description:
+      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, flat-screen TV, iPod docking station and tea/coffee making facilities. Shared bathroom access with a relaxing garden outlook.",
+    amenities: [
+      { label: "Free WiFi" },
+      { label: "TV with Freeview" },
+      { label: "Tea/Coffee Tray" },
+      { label: "Hairdryer" },
+    ],
+    imageUrl: G("09.jpg"),
+    imageAlt: "Family Room Shared Bathroom Garden View at Senlac Guest House",
   },
 ];
 
