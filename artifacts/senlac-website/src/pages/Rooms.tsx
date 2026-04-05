@@ -1,6 +1,8 @@
 import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 
+const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
+
 const rooms = [
   {
     type: "Single",
@@ -14,8 +16,8 @@ const rooms = [
       { label: "Tea/Coffee Tray" },
       { label: "Hairdryer" },
     ],
-    imageUrl: "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=85",
-    imageAlt: "Single room shared bathroom",
+    imageUrl: `${BASE}08.jpg`,
+    imageAlt: "Single room at Senlac Guest House",
   },
   {
     type: "Single",
@@ -30,8 +32,8 @@ const rooms = [
       { label: "Tea/Coffee Tray" },
       { label: "Hairdryer" },
     ],
-    imageUrl: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=85",
-    imageAlt: "Single ensuite room",
+    imageUrl: `${BASE}30.jpg`,
+    imageAlt: "Single ensuite room at Senlac Guest House",
     reverse: true,
   },
   {
@@ -48,8 +50,8 @@ const rooms = [
       { label: "Ironing Board" },
       { label: "Hairdryer" },
     ],
-    imageUrl: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=85",
-    imageAlt: "Double ensuite room",
+    imageUrl: `${BASE}28.jpg`,
+    imageAlt: "Double ensuite room at Senlac Guest House",
   },
   {
     type: "Twin",
@@ -64,8 +66,8 @@ const rooms = [
       { label: "Tea/Coffee Tray" },
       { label: "Hairdryer" },
     ],
-    imageUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=85",
-    imageAlt: "Twin ensuite room",
+    imageUrl: `${BASE}27.jpg`,
+    imageAlt: "Twin ensuite room at Senlac Guest House",
     reverse: true,
   },
   {
@@ -82,8 +84,8 @@ const rooms = [
       { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
-    imageUrl: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=85",
-    imageAlt: "Family ensuite room",
+    imageUrl: `${BASE}26.jpg`,
+    imageAlt: "Family ensuite room at Senlac Guest House",
   },
 ];
 

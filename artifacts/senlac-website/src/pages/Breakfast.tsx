@@ -142,8 +142,8 @@ export default function Breakfast() {
           {/* Breakfast image */}
           <div className="relative rounded-xl overflow-hidden aspect-[16/6] mb-12">
             <img
-              src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&q=85"
-              alt="Full English breakfast"
+              src="https://www.senlacguesthouse.co.uk/resources/gallery/11.jpg"
+              alt="Full English breakfast at Senlac Guest House"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-primary/40 flex items-center justify-center">

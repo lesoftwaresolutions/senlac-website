@@ -12,21 +12,23 @@ const features = [
   { icon: Star, label: "Highly Rated" },
 ];
 
+const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
+
 const roomPreviews = [
   {
     name: "Double Ensuite",
     description: "Spacious double room with private ensuite shower and WC.",
-    img: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    img: `${BASE}28.jpg`,
   },
   {
     name: "Family Room",
     description: "Large family room for up to 4 guests with private ensuite.",
-    img: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
+    img: `${BASE}26.jpg`,
   },
   {
     name: "Single Room",
     description: "Cozy single room perfect for solo travellers.",
-    img: "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=600&q=80",
+    img: `${BASE}30.jpg`,
   },
 ];
 
@@ -57,7 +59,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1800&q=90"
+          src={`${BASE}01.jpg`}
           alt="Senlac Guest House Hastings"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -171,7 +173,7 @@ export default function Home() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&q=85"
+                src={`${BASE}12.jpg`}
                 alt="Senlac Guest House Breakfast"
                 className="w-full h-full object-cover"
               />
