@@ -1,0 +1,314 @@
+🏨 PROJECT
+
+Build a modern, mobile-responsive hotel website frontend using ReactJS (Vite).
+
+Project Name: Senlac Guest House Website
+
+🎯 GOAL
+
+Use free hosting (Vercel)
+
+Use free database (Supabase) only for offers
+
+Keep everything else static
+
+Very low maintenance (client only updates offers)
+
+📂 INPUTS
+
+I will upload PDFs containing:
+
+Room descriptions
+
+Services
+
+Breakfast details
+
+General content
+
+Booking link (use everywhere):
+https://via.eviivo.com/SenlacTN34
+
+❗ IMPORTANT RULES
+
+❌ No backend/server
+
+❌ No authentication system
+
+❌ No paid APIs
+
+❌ Do NOT use pricing from PDFs
+
+❌ Do NOT show fixed room prices
+
+✅ Use PDFs ONLY for text content
+
+✅ Use Supabase ONLY for offers page
+
+✅ Everything else must be static
+
+🔘 BOOKING RULE (CRITICAL)
+
+ALL buttons must link to:
+https://via.eviivo.com/SenlacTN34
+
+Includes:
+
+Book Now
+
+Check Availability
+
+Book This Offer
+
+🎨 DESIGN
+
+Elegant hotel-style UI
+
+Premium look
+
+Colors:
+
+White
+
+Beige / cream
+
+Dark accents
+
+Fonts:
+
+Serif headings
+
+Clean sans-serif body
+
+Fully mobile responsive
+
+⚛️ TECH STACK
+
+ReactJS (Vite)
+
+React Router DOM
+
+CSS or Tailwind
+
+Fetch API
+
+Supabase (read-only)
+
+📁 STRUCTURE
+
+Create components:
+
+Header
+
+Footer
+
+Hero
+
+RoomCard
+
+OfferCard
+
+Pages:
+
+Home
+
+Rooms
+
+Rates
+
+Services
+
+Breakfast
+
+Offers (dynamic)
+
+Gallery
+
+Contact
+
+Book Now
+
+📄 PAGE DETAILS
+🏠 Home
+
+Hero:
+
+Senlac Guest House
+
+Subtitle
+
+Book Now button
+
+Sections:
+
+Rooms preview
+
+Breakfast
+
+Offers preview
+
+Contact
+
+🛏 Rooms
+
+Use PDF content
+
+Show:
+
+Room name
+
+Description
+
+Image
+
+Button → Book Now
+
+💷 Rates
+
+No pricing tables
+
+Show:
+"Prices may vary. Please check live availability."
+
+Button → Check Availability
+
+🛎 Services
+
+Grid layout with icons
+
+Data from PDFs
+
+🍳 Breakfast
+
+Styled menu from PDFs
+
+🎁 Offers (DYNAMIC – SUPABASE)
+
+Use Supabase free tier
+
+Table: offers
+
+Columns:
+
+id
+
+title
+
+description
+
+highlight_text
+
+button_text
+
+active
+
+Requirements:
+
+Fetch only active offers
+
+Display 3 cards
+
+Each card:
+
+Title
+
+Description
+
+Highlight badge
+
+Button → Book This Offer
+
+🖼 Gallery
+
+Static responsive grid
+
+📞 Contact
+
+Show:
+
+Address: 47 Cambridge Gardens, Hastings, TN34 1EN
+
+Phone: 01424 435767
+
+Email: info@senlacguesthouse.com
+
+Form:
+
+Name
+
+Email
+
+Message
+
+Submit using:
+mailto:info@senlacguesthouse.com
+
+📅 Book Now
+
+Title: Book Your Stay
+
+Button → booking link
+
+🔝 HEADER
+
+Home | Rooms | Rates | Services | Breakfast | Offers | Gallery | Contact | Book Now
+
+🔻 FOOTER
+
+Address
+
+Phone
+
+Email
+
+Quick links
+
+🔗 SUPABASE SETUP
+
+Create file:
+
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'YOUR_URL'
+const supabaseKey = 'YOUR_PUBLIC_KEY'
+
+export const supabase = createClient(supabaseUrl, supabaseKey)
+
+
+Fetch:
+
+const { data } = await supabase
+  .from('offers')
+  .select('*')
+  .eq('active', true)
+
+🚀 BUILD & DEPLOY
+
+Run:
+
+npm run build
+
+
+Deploy to:
+👉 Vercel (free hosting)
+
+Later connect domain from:
+👉 GoDaddy
+
+💰 COST STRUCTURE
+
+Hosting: FREE (Vercel)
+
+Database: FREE (Supabase)
+
+Domain: Paid (GoDaddy)
+
+🎯 FINAL RESULT
+
+Almost zero maintenance
+
+Client only updates offers in Supabase
+
+No developer needed after launch
+
+Fast, modern, professional website

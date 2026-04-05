@@ -1,0 +1,259 @@
+Project Name
+
+Senlac Guest House Website
+
+Inputs I Will Provide
+
+PDF files containing:
+
+Room descriptions
+
+Services
+
+Breakfast details
+
+General content
+
+Booking link (use everywhere):
+https://via.eviivo.com/SenlacTN34
+
+Important Rules
+
+Do NOT create any backend or server
+
+Do NOT use any database
+
+Do NOT use Supabase
+
+Do NOT use paid APIs
+
+Do NOT add login or admin system
+
+Use PDFs ONLY for text content (descriptions, services, etc.)
+
+Do NOT take pricing from PDFs
+
+Do NOT display fixed room prices
+
+All booking must redirect to the Eviivo link above
+
+Booking Button Rule (Very Important)
+
+Every button like:
+
+Book Now
+
+Check Availability
+
+Book This Offer
+
+Must link to:
+https://via.eviivo.com/SenlacTN34
+
+Design Requirements
+
+Clean, modern hotel-style UI
+
+Premium look (like boutique hotel)
+
+Colors:
+
+White
+
+Beige / cream
+
+Dark elegant accents
+
+Fonts:
+
+Serif for headings
+
+Sans-serif for body
+
+Fully mobile responsive
+
+Pages to Build
+
+Create these pages using React Router:
+
+Home
+
+Rooms
+
+Rates
+
+Services
+
+Breakfast
+
+Offers
+
+Gallery
+
+Contact
+
+Book Now
+
+Page Details
+Home
+
+Hero section:
+
+Title: Senlac Guest House
+
+Subtitle: A cozy, award-winning B&B in the heart of Hastings
+
+Button → Book Now
+
+Sections:
+
+Rooms preview
+
+Breakfast highlight
+
+Offers preview
+
+Contact info
+
+Rooms
+
+Use PDF content
+
+Show:
+
+Room name
+
+Description
+
+Image (use placeholder if needed)
+
+Button → Book Now
+
+Rates
+
+Do NOT show pricing
+
+Display message:
+"Prices may vary. Please check live availability."
+
+Button:
+→ Check Availability
+
+Services
+
+Extract from PDFs
+
+Display in grid with icons
+
+Breakfast
+
+Use PDF content
+
+Styled section
+
+Offers (STATIC)
+
+Create 3 fixed offers:
+
+Mid-week Special
+
+Romantic Getaway
+
+Winter Warmer
+
+Each card:
+
+Title
+
+Description
+
+Highlight text (e.g. "Save 10%")
+
+Button → Book This Offer
+
+Gallery
+
+Responsive image grid
+
+Use static images
+
+Contact
+
+Display:
+
+Address: 47 Cambridge Gardens, Hastings, TN34 1EN
+
+Phone: 01424 435767
+
+Email: info@senlacguesthouse.com
+
+Form:
+
+Name
+
+Email
+
+Message
+
+Submit using:
+mailto:info@senlacguesthouse.com
+
+Book Now
+
+Title: Book Your Stay
+
+Large button → booking link
+
+Layout
+Header Navigation
+
+Home | Rooms | Rates | Services | Breakfast | Offers | Gallery | Contact | Book Now
+
+Footer
+
+Address
+
+Phone
+
+Email
+
+Quick links
+
+Technical Requirements
+
+Use ReactJS with Vite
+
+Use React Router
+
+Use reusable components (Header, Footer, Cards)
+
+Keep code clean and simple
+
+Build Requirement
+
+Ensure project runs with:
+npm run build
+
+Output must generate:
+dist folder
+
+This will be deployed on Hostinger (static hosting).
+
+Final Goal
+
+Fully static website
+
+Zero maintenance
+
+Fast and clean
+
+Professional hotel look
+
+Easy to edit later
+
+End of Instructions
+
+If Replit gives a basic version, tell me — I can upgrade it to:
+✅ premium UI (like 5-star hotel site)
+✅ better animations
+✅ SEO optimized version
