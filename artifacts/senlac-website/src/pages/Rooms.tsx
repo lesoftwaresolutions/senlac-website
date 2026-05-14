@@ -11,7 +11,7 @@ const rooms = [
     maxGuests: 2,
     name: "Double Room (Ensuite)",
     description:
-      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the flat-screen TV and iPod docking station are offered for your entertainment. A coffee/tea maker and a refrigerator are supplied, bathrobes and complimentary toiletries are included.",
+      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the TV is provided for your entertainment. A coffee/tea maker and a refrigerator are supplied, bathrobes and complimentary toiletries are included.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
@@ -28,7 +28,7 @@ const rooms = [
     maxGuests: 2,
     name: "Double Room (Shared Bathroom)",
     description:
-      "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, flat-screen TV, iPod docking station and tea/coffee making facilities. Shared bathroom with bathtub and shower combination.",
+      "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, TV and tea/coffee making facilities. Shared bathroom with bathtub and shower combination.",
     amenities: [
       { label: "Free WiFi" },
       { label: "TV with Freeview" },
@@ -43,7 +43,7 @@ const rooms = [
     maxGuests: 1,
     name: "Single Room (Shared Bathroom)",
     description:
-      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the flat-screen TV and iPod docking station are available for your entertainment. A coffee/tea maker is supplied. Shared bathroom access.",
+      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the TV is available for your entertainment. A coffee/tea maker is supplied. Shared bathroom access.",
     amenities: [
       { label: "Free WiFi" },
       { label: "TV with Freeview" },
@@ -58,7 +58,7 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Ensuite – Small)",
     description:
-      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, flat-screen TV with iPod docking station, coffee/tea maker, bathrobes and complimentary toiletries are all provided.",
+      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, TV, coffee/tea maker, bathrobes and complimentary toiletries are all provided.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
@@ -74,7 +74,7 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Private Bathroom – Small)",
     description:
-      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, flat-screen TV with iPod docking station, coffee/tea maker, bathrobes and complimentary toiletries included. Ideal for a small family or group.",
+      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, TV, coffee/tea maker, bathrobes and complimentary toiletries included. Ideal for a small family or group.",
     amenities: [
       { label: "Free WiFi" },
       { label: "TV with Freeview" },
@@ -89,7 +89,7 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Shared Bathroom – Garden View)",
     description:
-      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, flat-screen TV, iPod docking station and tea/coffee making facilities. Shared bathroom access with a relaxing garden outlook.",
+      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, TV and tea/coffee making facilities. Shared bathroom access with a relaxing garden outlook.",
     amenities: [
       { label: "Free WiFi" },
       { label: "TV with Freeview" },
