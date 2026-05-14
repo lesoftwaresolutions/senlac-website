@@ -7,7 +7,7 @@ const offers = [
     badge: "Save 10%",
     title: "Mid-Week Special",
     description:
-      "Stay any 3 nights between Sunday and Thursday and receive 10% off your total booking price. Includes breakfast for all guests throughout your stay.",
+      "Stay any 3 nights between Sunday and Thursday and receive 10% off your total booking price.",
     highlight: "3 Night Mid-Week Break — 10% Off",
   },
   {

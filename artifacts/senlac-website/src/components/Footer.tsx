@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <h3 className="font-serif text-xl font-bold mb-3">Senlac Guest House</h3>
             <p className="text-primary-foreground/75 text-sm leading-relaxed mb-5">
-              A cozy, award-winning B&amp;B in the heart of Hastings. Experience comfort, style, and our famous breakfast.
+              A cozy, highly-rated guest house in the heart of Hastings. Experience comfort, style, and warm hospitality.
             </p>
             <a
               href={BOOKING_URL}
@@ -32,7 +32,6 @@ export default function Footer() {
                 { label: "Our Rooms", to: "/rooms" },
                 { label: "Room Rates", to: "/rates" },
                 { label: "Special Offers", to: "/offers" },
-                { label: "Breakfast Menu", to: "/breakfast" },
                 { label: "Gallery", to: "/gallery" },
                 { label: "Get in Touch", to: "/contact" },
               ].map((link) => (

@@ -1,5 +1,7 @@
 import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
+import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
+import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
 const G = (n: string) => `https://www.senlacguesthouse.co.uk/resources/gallery/${n}`;
 
@@ -33,7 +35,7 @@ const rooms = [
       { label: "Tea/Coffee Tray" },
       { label: "Hairdryer" },
     ],
-    imageUrl: G("06.jpg"),
+    imageUrl: doubleSharedImg,
     imageAlt: "Double Room with Shared Bathroom at Senlac Guest House",
   },
   {
@@ -94,7 +96,7 @@ const rooms = [
       { label: "Tea/Coffee Tray" },
       { label: "Hairdryer" },
     ],
-    imageUrl: G("09.jpg"),
+    imageUrl: familySharedGardenImg,
     imageAlt: "Family Room Shared Bathroom Garden View at Senlac Guest House",
   },
 ];

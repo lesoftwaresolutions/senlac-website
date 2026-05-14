@@ -9,8 +9,8 @@ const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
 const features = [
   { icon: Wifi, label: "Free High-Speed WiFi" },
   { icon: Car, label: "Free Parking" },
-  { icon: Award, label: "Award-Winning Breakfast" },
-  { icon: Star, label: "Highly Rated" },
+  { icon: Award, label: "Highly Rated" },
+  { icon: Star, label: "Great Value" },
 ];
 
 const roomPreviews = [
@@ -35,7 +35,7 @@ const offers = [
   {
     badge: "Save 10%",
     title: "Mid-Week Special",
-    description: "Stay any 3 nights between Sunday and Thursday and receive 10% off your total booking price. Includes breakfast.",
+    description: "Stay any 3 nights between Sunday and Thursday and receive 10% off your total booking price.",
     highlight: "3 Night Mid-Week Break",
   },
   {
@@ -161,53 +161,6 @@ export default function Home() {
               className="px-6 py-3 border-2 border-primary text-primary text-sm font-semibold rounded hover:bg-primary hover:text-primary-foreground transition-all"
             >
               View All Rooms
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* BREAKFAST HIGHLIGHT */}
-      <section className="py-20 bg-background">
-        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
-            <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-              <img
-                src={`${BASE}12.jpg`}
-                alt="Senlac Guest House Breakfast"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-5 -right-5 bg-primary text-primary-foreground p-5 rounded-lg shadow-lg hidden lg:block">
-              <p className="font-serif text-lg font-bold">Award-Winning</p>
-              <p className="text-xs opacity-75 mt-1">Breakfast Included</p>
-            </div>
-          </div>
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">Start Your Day Right</p>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-5">
-              Our Famous Breakfast
-            </h2>
-            <p className="text-foreground/70 text-base leading-relaxed mb-4">
-              Served daily from 8:00 AM to 9:30 AM in our sunny dining room. We source local ingredients wherever possible and cater to all dietary requirements.
-            </p>
-            <ul className="space-y-2 mb-8">
-              {[
-                "Full English with free-range eggs",
-                "Vegetarian & Vegan options",
-                "Fresh fruit, cereals & yogurts",
-                "Unlimited tea, coffee & hot chocolate",
-              ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-sm text-foreground/70">
-                  <span className="w-1 h-1 rounded-full bg-primary block" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <Link
-              to="/breakfast"
-              className="text-sm font-semibold text-primary underline underline-offset-4 hover:text-accent transition-colors"
-            >
-              View Full Breakfast Menu &rarr;
             </Link>
           </div>
         </div>

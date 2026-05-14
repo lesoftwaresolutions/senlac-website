@@ -5,7 +5,6 @@ import Home from "@/pages/Home";
 import Rooms from "@/pages/Rooms";
 import Rates from "@/pages/Rates";
 import Services from "@/pages/Services";
-import Breakfast from "@/pages/Breakfast";
 import Offers from "@/pages/Offers";
 import Gallery from "@/pages/Gallery";
 import Contact from "@/pages/Contact";
@@ -22,7 +21,6 @@ function Router() {
           <Route path="/rooms" component={Rooms} />
           <Route path="/rates" component={Rates} />
           <Route path="/services" component={Services} />
-          <Route path="/breakfast" component={Breakfast} />
           <Route path="/offers" component={Offers} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/contact" component={Contact} />
