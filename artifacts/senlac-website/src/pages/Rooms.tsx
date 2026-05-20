@@ -11,7 +11,7 @@ const rooms = [
     maxGuests: 2,
     name: "Double Room (Ensuite)",
     description:
-      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a refrigerator are supplied, bathrobes and complimentary toiletries are included.",
+      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a refrigerator are supplied, bathrooms and complimentary toiletries are included.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
@@ -58,7 +58,7 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Ensuite – Small)",
     description:
-      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, bathrobes and complimentary toiletries are all provided.",
+      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, bathrooms and complimentary toiletries are all provided.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
@@ -74,7 +74,9 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Private Bathroom – Small)",
     description:
-      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, bathrobes and complimentary toiletries included. Ideal for a small family or group.",
+      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, bathrooms
+      
+    and complimentary toiletries included. Ideal for a small family or group.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
