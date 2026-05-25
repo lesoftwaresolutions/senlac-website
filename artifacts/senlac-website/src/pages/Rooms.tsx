@@ -14,17 +14,17 @@ import ensuitePhoto8 from "@assets/IMG_4792_-_Edited_1779725063064.jpg";
 import ensuitePhoto9 from "@assets/IMG_4793_-_Edited_1779725063064.jpg";
 import ensuitePhoto10 from "@assets/IMG_4795_-_Edited_1779725063065.jpg";
 
-import familyEnsuiteP1 from "@assets/IMG_4281_1779722427695.jpeg";
-import familyEnsuiteP2 from "@assets/IMG_4282_1779722427695.jpeg";
-import familyEnsuiteP3 from "@assets/IMG_4283_1779722427695.jpeg";
-import familyEnsuiteP4 from "@assets/IMG_4284_1779722427695.jpeg";
-import familyEnsuiteP5 from "@assets/IMG_4285_1779722427695.jpeg";
-import familyEnsuiteP6 from "@assets/IMG_4286_1779722427695.jpeg";
-import familyEnsuiteP7 from "@assets/IMG_4287_1779722427695.jpeg";
-import familyEnsuiteP8 from "@assets/IMG_4288_1779722427695.jpeg";
-import familyEnsuiteP9 from "@assets/IMG_4289_1779722427695.jpeg";
-import familyEnsuiteP10 from "@assets/IMG_4290_1779722427695.jpeg";
-import familyEnsuiteP11 from "@assets/IMG_4291_1779722427695.jpeg";
+import familyEnsuiteP1 from "@assets/IMG_4799_1779729356083.JPG";
+import familyEnsuiteP2 from "@assets/IMG_4800_1779729356085.JPG";
+import familyEnsuiteP3 from "@assets/IMG_4801_1779729356085.JPG";
+import familyEnsuiteP4 from "@assets/IMG_4802_1779729356086.JPG";
+import familyEnsuiteP5 from "@assets/IMG_4804_-_Edited_1779729356086.jpg";
+import familyEnsuiteP6 from "@assets/IMG_4805_1779729356087.JPG";
+import familyEnsuiteP7 from "@assets/IMG_4806_1779729356087.JPG";
+import familyEnsuiteP8 from "@assets/IMG_4807_-_Edited_1779729356087.jpg";
+import familyEnsuiteP9 from "@assets/IMG_4808_-_Edited_1779729356087.jpg";
+import familyEnsuiteP10 from "@assets/IMG_4810_-_Edited_1779729356088.jpg";
+import familyEnsuiteP11 from "@assets/IMG_4811_1779729356088.JPG";
 
 const ensuitePhotos = [
   ensuitePhoto1, ensuitePhoto2, ensuitePhoto3, ensuitePhoto4, ensuitePhoto5,
