@@ -26,12 +26,13 @@ const rooms = [
     maxGuests: 2,
     name: "Double Room (Ensuite)",
     description:
-      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a refrigerator are supplied, bathrooms and complimentary toiletries are included.",
+      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a mini fridge are supplied, bathrooms and complimentary toiletries are included.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
+      { label: "Mini Fridge" },
       { label: "Ironing Board" },
       { label: "Hairdryer" },
     ],
@@ -48,6 +49,7 @@ const rooms = [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
+      { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
     imageUrl: doubleSharedImg,
@@ -58,11 +60,12 @@ const rooms = [
     maxGuests: 1,
     name: "Single Room (Shared Bathroom)",
     description:
-      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the Smart TV is available for your entertainment. A coffee/tea maker is supplied. Shared bathroom access.",
+      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the Smart TV is available for your entertainment. A coffee/tea maker and a mini fridge are supplied. Shared bathroom access.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
+      { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
     imageUrl: G("27.jpg"),
@@ -73,12 +76,13 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Ensuite – Small)",
     description:
-      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, bathrooms and complimentary toiletries are all provided.",
+      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge, bathrooms and complimentary toiletries are all provided.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Ensuite Shower" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
+      { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
     imageUrl: G("05.jpg"),
@@ -89,11 +93,12 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Private Bathroom – Small)",
     description:
-      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker and complimentary toiletries included. Ideal for a small family or group.",
+      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge and complimentary toiletries included. Ideal for a small family or group.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
+      { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
     imageUrl: G("02.jpg"),
@@ -104,11 +109,12 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Shared Bathroom – Garden View)",
     description:
-      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, Smart TV and tea/coffee making facilities. Shared bathroom access with a relaxing garden outlook.",
+      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge. Shared bathroom access with a relaxing garden outlook.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
+      { label: "Mini Fridge" },
       { label: "Hairdryer" },
     ],
     imageUrl: familySharedGardenImg,
