@@ -74,9 +74,7 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Private Bathroom – Small)",
     description:
-      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, bathrooms
-      
-    and complimentary toiletries included. Ideal for a small family or group.",
+      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker and complimentary toiletries included. Ideal for a small family or group.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
