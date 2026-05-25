@@ -2,6 +2,7 @@ import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
+
 import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
 import ensuitePhoto2 from "@assets/IMG_4781_-_Edited_1779725063062.jpg";
 import ensuitePhoto3 from "@assets/IMG_4783_-_Edited_1779725063063.jpg";
@@ -13,9 +14,27 @@ import ensuitePhoto8 from "@assets/IMG_4792_-_Edited_1779725063064.jpg";
 import ensuitePhoto9 from "@assets/IMG_4793_-_Edited_1779725063064.jpg";
 import ensuitePhoto10 from "@assets/IMG_4795_-_Edited_1779725063065.jpg";
 
+import familyEnsuiteP1 from "@assets/IMG_4281_1779722427695.jpeg";
+import familyEnsuiteP2 from "@assets/IMG_4282_1779722427695.jpeg";
+import familyEnsuiteP3 from "@assets/IMG_4283_1779722427695.jpeg";
+import familyEnsuiteP4 from "@assets/IMG_4284_1779722427695.jpeg";
+import familyEnsuiteP5 from "@assets/IMG_4285_1779722427695.jpeg";
+import familyEnsuiteP6 from "@assets/IMG_4286_1779722427695.jpeg";
+import familyEnsuiteP7 from "@assets/IMG_4287_1779722427695.jpeg";
+import familyEnsuiteP8 from "@assets/IMG_4288_1779722427695.jpeg";
+import familyEnsuiteP9 from "@assets/IMG_4289_1779722427695.jpeg";
+import familyEnsuiteP10 from "@assets/IMG_4290_1779722427695.jpeg";
+import familyEnsuiteP11 from "@assets/IMG_4291_1779722427695.jpeg";
+
 const ensuitePhotos = [
   ensuitePhoto1, ensuitePhoto2, ensuitePhoto3, ensuitePhoto4, ensuitePhoto5,
   ensuitePhoto6, ensuitePhoto7, ensuitePhoto8, ensuitePhoto9, ensuitePhoto10,
+];
+
+const familyEnsuitePhotos = [
+  familyEnsuiteP1, familyEnsuiteP2, familyEnsuiteP3, familyEnsuiteP4, familyEnsuiteP5,
+  familyEnsuiteP6, familyEnsuiteP7, familyEnsuiteP8, familyEnsuiteP9, familyEnsuiteP10,
+  familyEnsuiteP11,
 ];
 
 const G = (n: string) => `https://www.senlacguesthouse.co.uk/resources/gallery/${n}`;
@@ -119,6 +138,19 @@ const rooms = [
   },
 ];
 
+const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roomTourUrl: string }> = {
+  0: {
+    roomPhotos: ensuitePhotos,
+    view360Url: "https://www.youtube.com/shorts/RrhAvRidnFA",
+    roomTourUrl: "https://www.youtube.com/shorts/iDIeVF1m0Tk",
+  },
+  3: {
+    roomPhotos: familyEnsuitePhotos,
+    view360Url: "https://www.youtube.com/shorts/MN2C-fgLnIo",
+    roomTourUrl: "https://www.youtube.com/shorts/E7EQGCVfNi0",
+  },
+};
+
 export default function Rooms() {
   return (
     <>
@@ -133,11 +165,7 @@ export default function Rooms() {
               key={room.name}
               {...room}
               reverse={i % 2 !== 0}
-              {...(i === 0 ? {
-                roomPhotos: ensuitePhotos,
-                view360Url: "https://www.youtube.com/shorts/RrhAvRidnFA",
-                roomTourUrl: "https://www.youtube.com/shorts/iDIeVF1m0Tk",
-              } : {})}
+              {...(roomExtras[i] ?? {})}
             />
           ))}
         </div>
