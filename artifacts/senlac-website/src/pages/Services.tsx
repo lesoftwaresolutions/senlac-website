@@ -13,7 +13,7 @@ const services = [
     title: "Parking Information",
     description:
       "For parking information in the local area, please click here to check with the local council website for the latest parking details.",
-    link: "https://www.hastings.gov.uk/transport/parking/",
+    link: "https://www.hastings.gov.uk/parking/carparks/",
     linkLabel: "Check Parking Information",
   },
   {
