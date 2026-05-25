@@ -2,6 +2,21 @@ import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
+import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
+import ensuitePhoto2 from "@assets/IMG_4781_-_Edited_1779725063062.jpg";
+import ensuitePhoto3 from "@assets/IMG_4783_-_Edited_1779725063063.jpg";
+import ensuitePhoto4 from "@assets/IMG_4785_-_Edited_-_Edited_-_Edited_1779725063063.jpg";
+import ensuitePhoto5 from "@assets/IMG_4786_-_Edited_1779725063063.jpg";
+import ensuitePhoto6 from "@assets/IMG_4788_-_Edited_1779725063064.jpg";
+import ensuitePhoto7 from "@assets/IMG_4791_(1)_-_Edited_1779725063064.jpg";
+import ensuitePhoto8 from "@assets/IMG_4792_-_Edited_1779725063064.jpg";
+import ensuitePhoto9 from "@assets/IMG_4793_-_Edited_1779725063064.jpg";
+import ensuitePhoto10 from "@assets/IMG_4795_-_Edited_1779725063065.jpg";
+
+const ensuitePhotos = [
+  ensuitePhoto1, ensuitePhoto2, ensuitePhoto3, ensuitePhoto4, ensuitePhoto5,
+  ensuitePhoto6, ensuitePhoto7, ensuitePhoto8, ensuitePhoto9, ensuitePhoto10,
+];
 
 const G = (n: string) => `https://www.senlacguesthouse.co.uk/resources/gallery/${n}`;
 
@@ -111,7 +126,16 @@ export default function Rooms() {
       <section className="py-16 bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-10">
           {rooms.map((room, i) => (
-            <RoomCard key={room.name} {...room} reverse={i % 2 !== 0} />
+            <RoomCard
+              key={room.name}
+              {...room}
+              reverse={i % 2 !== 0}
+              {...(i === 0 ? {
+                roomPhotos: ensuitePhotos,
+                view360Url: "https://www.youtube.com/shorts/RrhAvRidnFA",
+                roomTourUrl: "https://www.youtube.com/shorts/iDIeVF1m0Tk",
+              } : {})}
+            />
           ))}
         </div>
       </section>
