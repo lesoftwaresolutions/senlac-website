@@ -1,14 +1,14 @@
 import { Link } from "wouter";
 import BookingButton from "@/components/BookingButton";
 import OfferCard from "@/components/OfferCard";
-import { Wifi, Car, Award, Star, MapPin, Phone, Mail } from "lucide-react";
+import { Wifi, Award, Star, MapPin, Phone, Mail } from "lucide-react";
 
 const BOOKING_URL = "https://via.eviivo.com/SenlacTN34";
 const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
 
 const features = [
   { icon: Wifi, label: "Free High-Speed WiFi" },
-  { icon: Car, label: "Free Parking" },
+  { icon: MapPin, label: "Central Hastings Location" },
   { icon: Award, label: "Highly Rated" },
   { icon: Star, label: "Great Value" },
 ];

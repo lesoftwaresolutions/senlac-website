@@ -1,5 +1,5 @@
 import PageHero from "@/components/PageHero";
-import { Wifi, Car, Coffee, MapPin, Clock, Luggage, AlertCircle, HelpCircle } from "lucide-react";
+import { Wifi, Coffee, MapPin, Clock, Luggage, HelpCircle } from "lucide-react";
 
 const services = [
   {
@@ -9,10 +9,12 @@ const services = [
       "Check-in is available from 2:00 PM to 9:00 PM. Check-out is by 10:30 AM on the day of departure. Late check-in can be arranged upon request.",
   },
   {
-    icon: Car,
-    title: "Free Parking",
+    icon: MapPin,
+    title: "Parking Information",
     description:
-      "We offer limited free off-street parking for our guests on a first-come, first-served basis. Additional unrestricted street parking is available nearby.",
+      "For parking information in the local area, please click here to check with the local council website for the latest parking details.",
+    link: "https://www.hastings.gov.uk/transport/parking/",
+    linkLabel: "Check Parking Information",
   },
   {
     icon: Wifi,
@@ -70,13 +72,23 @@ export default function Services() {
       <section className="py-16 bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-            {services.map(({ icon: Icon, title, description }) => (
+            {services.map(({ icon: Icon, title, description, link, linkLabel }: { icon: React.ElementType; title: string; description: string; link?: string; linkLabel?: string }) => (
               <div key={title} className="bg-card border border-border rounded-xl p-7 hover:shadow-md transition-shadow">
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Icon size={20} className="text-primary" />
                 </div>
                 <h3 className="font-serif text-lg font-bold text-primary mb-3">{title}</h3>
                 <p className="text-foreground/65 text-sm leading-relaxed">{description}</p>
+                {link && (
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-3 text-xs font-semibold text-primary underline underline-offset-2 hover:opacity-70 transition-opacity"
+                  >
+                    {linkLabel ?? "Click here"}
+                  </a>
+                )}
               </div>
             ))}
           </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BookingButton from "./BookingButton";
-import { Wifi, Tv, Coffee, Wind, ShowerHead, Columns2, Images, View, Video, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { Wifi, Tv, Coffee, Wind, ShowerHead, Columns2, Images, View, Video, X, ChevronLeft, ChevronRight, Wine, Shirt, Sparkles, Droplets, GlassWater } from "lucide-react";
 
 interface RoomCardProps {
   type: string;
@@ -23,8 +23,14 @@ const amenityIconMap: Record<string, React.ReactNode> = {
   "Tea/Coffee Tray": <Coffee size={14} />,
   "Hairdryer": <Wind size={14} />,
   "Ensuite Shower": <ShowerHead size={14} />,
+  "Shower/Toilet Facilities": <ShowerHead size={14} />,
   "Ironing Board": <Columns2 size={14} />,
-  "Mini Fridge": <Coffee size={14} />,
+  "Iron/Ironing Board": <Columns2 size={14} />,
+  "Mini Fridge": <GlassWater size={14} />,
+  "Mini Fridge/Wine Cooler": <Wine size={14} />,
+  "Wardrobe": <Shirt size={14} />,
+  "Dressing Table": <Sparkles size={14} />,
+  "Free Toiletries": <Droplets size={14} />,
 };
 
 type ModalType = "photos" | "360" | "tour" | null;

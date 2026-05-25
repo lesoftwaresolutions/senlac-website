@@ -20,22 +20,26 @@ const ensuitePhotos = [
 
 const G = (n: string) => `https://www.senlacguesthouse.co.uk/resources/gallery/${n}`;
 
+const ENSUITE_AMENITIES = [
+  { label: "Free WiFi" },
+  { label: "Smart TV" },
+  { label: "Tea/Coffee Tray" },
+  { label: "Iron/Ironing Board" },
+  { label: "Wardrobe" },
+  { label: "Dressing Table" },
+  { label: "Mini Fridge/Wine Cooler" },
+  { label: "Shower/Toilet Facilities" },
+  { label: "Free Toiletries" },
+];
+
 const rooms = [
   {
     type: "Double",
     maxGuests: 2,
     name: "Double Room (Ensuite)",
     description:
-      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a mini fridge are supplied, bathrooms and complimentary toiletries are included.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Ensuite Shower" },
-      { label: "Smart TV" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
-      { label: "Ironing Board" },
-      { label: "Hairdryer" },
-    ],
+      "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a mini fridge/wine cooler are supplied. En-suite shower, toilet and complimentary toiletries are included.",
+    amenities: ENSUITE_AMENITIES,
     imageUrl: G("01.jpg"),
     imageAlt: "Double Ensuite Room — green striped décor at Senlac Guest House",
   },
@@ -44,12 +48,12 @@ const rooms = [
     maxGuests: 2,
     name: "Double Room (Shared Bathroom)",
     description:
-      "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, Smart TV and tea/coffee making facilities. Shared bathroom with bathtub and shower combination.",
+      "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge/wine cooler. Shared bathroom with bathtub and shower combination.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
+      { label: "Mini Fridge/Wine Cooler" },
       { label: "Hairdryer" },
     ],
     imageUrl: doubleSharedImg,
@@ -60,12 +64,12 @@ const rooms = [
     maxGuests: 1,
     name: "Single Room (Shared Bathroom)",
     description:
-      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the Smart TV is available for your entertainment. A coffee/tea maker and a mini fridge are supplied. Shared bathroom access.",
+      "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the Smart TV is available for your entertainment. A coffee/tea maker and a mini fridge/wine cooler are supplied. Shared bathroom access.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
+      { label: "Mini Fridge/Wine Cooler" },
       { label: "Hairdryer" },
     ],
     imageUrl: G("27.jpg"),
@@ -76,15 +80,8 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Ensuite – Small)",
     description:
-      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge, bathrooms and complimentary toiletries are all provided.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Ensuite Shower" },
-      { label: "Smart TV" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
-      { label: "Hairdryer" },
-    ],
+      "Comfortable family room sleeping up to 3 guests with private ensuite bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker and a mini fridge/wine cooler are all provided. En-suite shower, toilet and complimentary toiletries included.",
+    amenities: ENSUITE_AMENITIES,
     imageUrl: G("05.jpg"),
     imageAlt: "Family Room Ensuite Small at Senlac Guest House",
   },
@@ -93,12 +90,12 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Private Bathroom – Small)",
     description:
-      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge and complimentary toiletries included. Ideal for a small family or group.",
+      "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge/wine cooler and complimentary toiletries included. Ideal for a small family or group.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
+      { label: "Mini Fridge/Wine Cooler" },
       { label: "Hairdryer" },
     ],
     imageUrl: G("02.jpg"),
@@ -109,12 +106,12 @@ const rooms = [
     maxGuests: 3,
     name: "Family Room (Shared Bathroom – Garden View)",
     description:
-      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge. Shared bathroom access with a relaxing garden outlook.",
+      "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge/wine cooler. Shared bathroom access with a relaxing garden outlook.",
     amenities: [
       { label: "Free WiFi" },
       { label: "Smart TV" },
       { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge" },
+      { label: "Mini Fridge/Wine Cooler" },
       { label: "Hairdryer" },
     ],
     imageUrl: familySharedGardenImg,
