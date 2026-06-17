@@ -3,6 +3,7 @@ import RoomCard from "@/components/RoomCard";
 import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
 import doubleEnsuiteCardImg from "@assets/IMG_4780_1781733152074.JPG";
 import doubleSharedCardImg from "@assets/IMG_4903_1781733071979.JPG";
+import singleSharedCardImg from "@assets/copy_D2D0A4C2-3B19-4937-9E89-345F1AB78685_1781733266507.JPEG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
 import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
@@ -145,7 +146,7 @@ const rooms = [
     description:
       "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the Smart TV is available for your entertainment. A coffee/tea maker and a mini fridge/wine cooler are supplied. Shared bathroom access.",
     amenities: SHARED_AMENITIES,
-    imageUrl: G("27.jpg"),
+    imageUrl: singleSharedCardImg,
     imageAlt: "Single Room with Shared Bathroom at Senlac Guest House",
   },
   {
