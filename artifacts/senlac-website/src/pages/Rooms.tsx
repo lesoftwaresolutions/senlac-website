@@ -5,6 +5,7 @@ import doubleEnsuiteCardImg from "@assets/IMG_4780_1781733152074.JPG";
 import doubleSharedCardImg from "@assets/IMG_4903_1781733071979.JPG";
 import singleSharedCardImg from "@assets/copy_D2D0A4C2-3B19-4937-9E89-345F1AB78685_1781733266507.JPEG";
 import familyEnsuiteSmallCardImg from "@assets/IMG_4801_1781733507220.JPG";
+import familyPrivateMediumCardImg from "@assets/copy_647AA3A8-0110-4ECB-8DE8-94C65634269D_1781733666875.JPEG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
 import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
@@ -167,8 +168,8 @@ const rooms = [
     description:
       "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge/wine cooler and complimentary toiletries included. Ideal for a small family or group.",
     amenities: SHARED_AMENITIES,
-    imageUrl: G("02.jpg"),
-    imageAlt: "Family Room Private Bathroom Medium — rose floral décor at Senlac Guest House",
+    imageUrl: familyPrivateMediumCardImg,
+    imageAlt: "Family Room Private Bathroom Medium at Senlac Guest House",
   },
   {
     type: "Family",
