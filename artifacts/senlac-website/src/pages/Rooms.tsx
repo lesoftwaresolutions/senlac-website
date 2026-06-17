@@ -1,7 +1,7 @@
 import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
-import doubleEnsuiteCardImg from "@assets/IMG_4903_1781732986182.JPG";
+import doubleEnsuiteCardImg from "@assets/IMG_4780_1781733152074.JPG";
 import doubleSharedCardImg from "@assets/IMG_4903_1781733071979.JPG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
