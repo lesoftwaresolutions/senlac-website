@@ -1,6 +1,7 @@
 import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
+import doubleEnsuiteCardImg from "@assets/IMG_4903_1781732986182.JPG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
 import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
@@ -123,8 +124,8 @@ const rooms = [
     description:
       "Spacious double room with private ensuite shower and WC. Complimentary wireless Internet access keeps you connected, and the Smart TV is provided for your entertainment. A coffee/tea maker and a mini fridge/wine cooler are supplied. En-suite shower, toilet and complimentary toiletries are included.",
     amenities: ENSUITE_AMENITIES,
-    imageUrl: G("01.jpg"),
-    imageAlt: "Double Ensuite Room — green striped décor at Senlac Guest House",
+    imageUrl: doubleEnsuiteCardImg,
+    imageAlt: "Double Ensuite Room at Senlac Guest House",
   },
   {
     type: "Double",
