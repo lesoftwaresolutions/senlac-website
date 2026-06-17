@@ -2,6 +2,7 @@ import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import doubleSharedImg from "@assets/IMG_4365_1778766003809.JPG";
 import doubleEnsuiteCardImg from "@assets/IMG_4903_1781732986182.JPG";
+import doubleSharedCardImg from "@assets/IMG_4903_1781733071979.JPG";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
 import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
@@ -134,7 +135,7 @@ const rooms = [
     description:
       "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge/wine cooler. Shared bathroom with bathtub and shower combination.",
     amenities: SHARED_AMENITIES,
-    imageUrl: doubleSharedImg,
+    imageUrl: doubleSharedCardImg,
     imageAlt: "Double Room with Shared Bathroom at Senlac Guest House",
   },
   {
