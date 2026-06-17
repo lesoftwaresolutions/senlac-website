@@ -51,6 +51,17 @@ const ENSUITE_AMENITIES = [
   { label: "Free Toiletries" },
 ];
 
+const SHARED_AMENITIES = [
+  { label: "Free WiFi" },
+  { label: "Smart TV" },
+  { label: "Tea/Coffee Tray" },
+  { label: "Iron/Ironing Board" },
+  { label: "Wardrobe" },
+  { label: "Dressing Table" },
+  { label: "Mini Fridge/Wine Cooler" },
+  { label: "Shower/Toilet Facilities" },
+];
+
 const rooms = [
   {
     type: "Double",
@@ -68,13 +79,7 @@ const rooms = [
     name: "Double Room (Shared Bathroom)",
     description:
       "Comfortable double room with shared bathroom access. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge/wine cooler. Shared bathroom with bathtub and shower combination.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Smart TV" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge/Wine Cooler" },
-      { label: "Hairdryer" },
-    ],
+    amenities: SHARED_AMENITIES,
     imageUrl: doubleSharedImg,
     imageAlt: "Double Room with Shared Bathroom at Senlac Guest House",
   },
@@ -84,13 +89,7 @@ const rooms = [
     name: "Single Room (Shared Bathroom)",
     description:
       "Cozy single room perfect for solo travellers. Complimentary wireless Internet access keeps you connected, and the Smart TV is available for your entertainment. A coffee/tea maker and a mini fridge/wine cooler are supplied. Shared bathroom access.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Smart TV" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge/Wine Cooler" },
-      { label: "Hairdryer" },
-    ],
+    amenities: SHARED_AMENITIES,
     imageUrl: G("27.jpg"),
     imageAlt: "Single Room with Shared Bathroom at Senlac Guest House",
   },
@@ -110,29 +109,17 @@ const rooms = [
     name: "Family Room (Private Bathroom – Small)",
     description:
       "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge/wine cooler and complimentary toiletries included. Ideal for a small family or group.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Smart TV" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge/Wine Cooler" },
-      { label: "Hairdryer" },
-    ],
+    amenities: SHARED_AMENITIES,
     imageUrl: G("02.jpg"),
     imageAlt: "Family Room Private Bathroom Small — rose floral décor at Senlac Guest House",
   },
   {
     type: "Family",
     maxGuests: 3,
-    name: "Family Room (Shared Bathroom – Garden View)",
+    name: "Family Room (Shared Bathroom)",
     description:
       "Lovely family room with garden views, sleeping up to 3 guests. Includes complimentary wireless Internet, Smart TV, tea/coffee making facilities and a mini fridge/wine cooler. Shared bathroom access with a relaxing garden outlook.",
-    amenities: [
-      { label: "Free WiFi" },
-      { label: "Smart TV" },
-      { label: "Tea/Coffee Tray" },
-      { label: "Mini Fridge/Wine Cooler" },
-      { label: "Hairdryer" },
-    ],
+    amenities: SHARED_AMENITIES,
     imageUrl: familySharedGardenImg,
     imageAlt: "Family Room Shared Bathroom Garden View at Senlac Guest House",
   },
@@ -144,10 +131,25 @@ const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roo
     view360Url: "https://www.youtube.com/shorts/RrhAvRidnFA",
     roomTourUrl: "https://www.youtube.com/shorts/iDIeVF1m0Tk",
   },
+  1: {
+    roomPhotos: [doubleSharedImg],
+    view360Url: "https://www.youtube.com/shorts/jEZJ2Xufm30",
+    roomTourUrl: "https://www.youtube.com/shorts/RR5zjCb7dvY",
+  },
+  2: {
+    roomPhotos: [G("27.jpg")],
+    view360Url: "https://www.youtube.com/shorts/V1YUm-W-nCs",
+    roomTourUrl: "https://www.youtube.com/shorts/Lpoa5bD9T30",
+  },
   3: {
     roomPhotos: familyEnsuitePhotos,
     view360Url: "https://www.youtube.com/shorts/MN2C-fgLnIo",
     roomTourUrl: "https://www.youtube.com/shorts/E7EQGCVfNi0",
+  },
+  5: {
+    roomPhotos: [familySharedGardenImg],
+    view360Url: "https://www.youtube.com/shorts/M72h849Hkec",
+    roomTourUrl: "https://www.youtube.com/watch?v=zWlhn8X_cc0",
   },
 };
 
