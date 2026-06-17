@@ -216,8 +216,8 @@ const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roo
   },
   4: {
     roomPhotos: [G("02.jpg")],
-    view360Url: "https://www.youtube.com/shorts/M72h849Hkec",
-    roomTourUrl: "https://www.youtube.com/shorts/zWlhn8X_cc0",
+    view360Url: "https://www.youtube.com/shorts/w1nl4Yli55E",
+    roomTourUrl: "https://www.youtube.com/shorts/u4oFGTE5n3E",
   },
   5: {
     roomPhotos: familySharedPhotos,
