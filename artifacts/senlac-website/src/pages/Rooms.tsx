@@ -26,6 +26,19 @@ import familyEnsuiteP9 from "@assets/IMG_4808_-_Edited_1779729356087.jpg";
 import familyEnsuiteP10 from "@assets/IMG_4810_-_Edited_1779729356088.jpg";
 import familyEnsuiteP11 from "@assets/IMG_4811_1779729356088.JPG";
 
+import familyEnsuiteNewP1 from "@assets/copy_0D8CFE16-C0E9-4C50-BCE7-78A8F5C42DC7_1781715752820.JPEG";
+import familyEnsuiteNewP2 from "@assets/copy_0EC41C4A-164E-45E2-8CC8-1C601B7D57C9_1781715759926.JPEG";
+import familyEnsuiteNewP3 from "@assets/copy_83E36B90-E29B-4CB1-808A-E83663250E95_1781715770286.JPEG";
+import familyEnsuiteNewP4 from "@assets/copy_5B8006E6-027C-4ADD-9637-C3F22A5EA209_1781715790147.JPEG";
+import familyEnsuiteNewP5 from "@assets/copy_15637A04-8A69-4F21-8512-A8E8B3C18A60_1781715799256.JPEG";
+import familyEnsuiteNewP6 from "@assets/copy_976F7933-007C-46BC-B8FB-CCA5F96C88F4_1781715807411.JPEG";
+import familyEnsuiteNewP7 from "@assets/copy_B0EFBD83-5EB3-4432-B5F9-CB6AAEEDE71C_1781715820577.JPEG";
+
+const familyEnsuiteNewPhotos = [
+  familyEnsuiteNewP1, familyEnsuiteNewP2, familyEnsuiteNewP3, familyEnsuiteNewP4,
+  familyEnsuiteNewP5, familyEnsuiteNewP6, familyEnsuiteNewP7,
+];
+
 const ensuitePhotos = [
   ensuitePhoto1, ensuitePhoto2, ensuitePhoto3, ensuitePhoto4, ensuitePhoto5,
   ensuitePhoto6, ensuitePhoto7, ensuitePhoto8, ensuitePhoto9, ensuitePhoto10,
@@ -167,7 +180,7 @@ const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roo
     roomTourUrl: "https://www.youtube.com/watch?v=zWlhn8X_cc0",
   },
   6: {
-    roomPhotos: [G("03.jpg")],
+    roomPhotos: familyEnsuiteNewPhotos,
     view360Url: "https://www.youtube.com/shorts/bpwE-qKMI40",
     roomTourUrl: "https://www.youtube.com/shorts/0mxU8IN-Jnc",
   },
