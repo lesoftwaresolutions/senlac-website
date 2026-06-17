@@ -26,6 +26,18 @@ import familyEnsuiteP9 from "@assets/IMG_4808_-_Edited_1779729356087.jpg";
 import familyEnsuiteP10 from "@assets/IMG_4810_-_Edited_1779729356088.jpg";
 import familyEnsuiteP11 from "@assets/IMG_4811_1779729356088.JPG";
 
+import singleSharedP1 from "@assets/copy_D2D0A4C2-3B19-4937-9E89-345F1AB78685_1781732594012.JPEG";
+import singleSharedP2 from "@assets/copy_5E0442E3-3D3C-4711-8372-74151F658078_1781732601880.JPEG";
+import singleSharedP3 from "@assets/copy_343EB154-86C4-478B-87ED-576BE82E0B4B_1781732609221.JPEG";
+import singleSharedP4 from "@assets/IMG_4916_1781732617912.JPG";
+import singleSharedP5 from "@assets/IMG_4919_1781732623183.JPG";
+import singleSharedP6 from "@assets/copy_976F7933-007C-46BC-B8FB-CCA5F96C88F4_1781732641614.JPEG";
+
+const singleSharedPhotos = [
+  singleSharedP1, singleSharedP2, singleSharedP3,
+  singleSharedP4, singleSharedP5, singleSharedP6,
+];
+
 import doubleSharedNewP1 from "@assets/IMG_4903_1781732271029.JPG";
 import doubleSharedNewP2 from "@assets/IMG_4898_1781732287240.JPG";
 import doubleSharedNewP3 from "@assets/IMG_4899_1781732293746.JPG";
@@ -188,7 +200,7 @@ const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roo
     roomTourUrl: "https://www.youtube.com/shorts/RR5zjCb7dvY",
   },
   2: {
-    roomPhotos: [G("27.jpg")],
+    roomPhotos: singleSharedPhotos,
     view360Url: "https://www.youtube.com/shorts/V1YUm-W-nCs",
     roomTourUrl: "https://www.youtube.com/shorts/Lpoa5bD9T30",
   },
