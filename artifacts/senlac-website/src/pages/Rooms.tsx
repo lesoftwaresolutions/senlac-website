@@ -26,6 +26,20 @@ import familyEnsuiteP9 from "@assets/IMG_4808_-_Edited_1779729356087.jpg";
 import familyEnsuiteP10 from "@assets/IMG_4810_-_Edited_1779729356088.jpg";
 import familyEnsuiteP11 from "@assets/IMG_4811_1779729356088.JPG";
 
+import familySharedP1 from "@assets/copy_0E3B30D2-8D33-442F-973F-36212DD504BE_1781715988153.JPEG";
+import familySharedP2 from "@assets/copy_5EBADF76-AA24-438A-9AC9-5F4AD9F9E125_1781715996636.JPEG";
+import familySharedP3 from "@assets/copy_36A160D1-060D-4B25-A687-F4BE3AA02424_1781716002375.JPEG";
+import familySharedP4 from "@assets/copy_647AA3A8-0110-4ECB-8DE8-94C65634269D_1781716008394.JPEG";
+import familySharedP5 from "@assets/IMG_4859_1781716026802.JPG";
+import familySharedP6 from "@assets/copy_676B78F5-F3B8-42EC-9FC2-4A8EED59FF19_1781716044722.JPEG";
+import familySharedP7 from "@assets/copy_725D316E-A6E2-4BDF-A7EA-ED048B388F4A_1781716055970.JPEG";
+import familySharedP8 from "@assets/copy_4049E761-884D-4204-87D2-5479B54EC568_1781716066500.JPEG";
+
+const familySharedPhotos = [
+  familySharedP1, familySharedP2, familySharedP3, familySharedP4,
+  familySharedP5, familySharedP6, familySharedP7, familySharedP8,
+];
+
 import familyEnsuiteNewP1 from "@assets/copy_0D8CFE16-C0E9-4C50-BCE7-78A8F5C42DC7_1781715752820.JPEG";
 import familyEnsuiteNewP2 from "@assets/copy_0EC41C4A-164E-45E2-8CC8-1C601B7D57C9_1781715759926.JPEG";
 import familyEnsuiteNewP3 from "@assets/copy_83E36B90-E29B-4CB1-808A-E83663250E95_1781715770286.JPEG";
@@ -175,7 +189,7 @@ const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roo
     roomTourUrl: "https://www.youtube.com/shorts/zWlhn8X_cc0",
   },
   5: {
-    roomPhotos: [familySharedGardenImg],
+    roomPhotos: familySharedPhotos,
     view360Url: "https://www.youtube.com/shorts/M72h849Hkec",
     roomTourUrl: "https://www.youtube.com/watch?v=zWlhn8X_cc0",
   },
