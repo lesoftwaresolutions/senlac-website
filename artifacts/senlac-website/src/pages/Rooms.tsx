@@ -106,12 +106,12 @@ const rooms = [
   {
     type: "Family",
     maxGuests: 3,
-    name: "Family Room (Private Bathroom – Small)",
+    name: "Family Room (Private Bathroom – Medium)",
     description:
       "Bright family room for up to 3 guests with private bathroom. Complimentary wireless Internet access, Smart TV, coffee/tea maker, mini fridge/wine cooler and complimentary toiletries included. Ideal for a small family or group.",
     amenities: SHARED_AMENITIES,
     imageUrl: G("02.jpg"),
-    imageAlt: "Family Room Private Bathroom Small — rose floral décor at Senlac Guest House",
+    imageAlt: "Family Room Private Bathroom Medium — rose floral décor at Senlac Guest House",
   },
   {
     type: "Family",
@@ -122,6 +122,16 @@ const rooms = [
     amenities: SHARED_AMENITIES,
     imageUrl: familySharedGardenImg,
     imageAlt: "Family Room Shared Bathroom Garden View at Senlac Guest House",
+  },
+  {
+    type: "Family",
+    maxGuests: 4,
+    name: "Family Ensuite",
+    description:
+      "Generously sized family ensuite room sleeping up to 4 guests. Features complimentary wireless Internet, Smart TV, tea/coffee making facilities, mini fridge/wine cooler and private ensuite shower with complimentary toiletries — everything your family needs for a comfortable stay.",
+    amenities: ENSUITE_AMENITIES,
+    imageUrl: G("03.jpg"),
+    imageAlt: "Family Ensuite Room at Senlac Guest House",
   },
 ];
 
@@ -146,10 +156,20 @@ const roomExtras: Record<number, { roomPhotos: string[]; view360Url: string; roo
     view360Url: "https://www.youtube.com/shorts/MN2C-fgLnIo",
     roomTourUrl: "https://www.youtube.com/shorts/E7EQGCVfNi0",
   },
+  4: {
+    roomPhotos: [G("02.jpg")],
+    view360Url: "https://www.youtube.com/shorts/M72h849Hkec",
+    roomTourUrl: "https://www.youtube.com/shorts/zWlhn8X_cc0",
+  },
   5: {
     roomPhotos: [familySharedGardenImg],
     view360Url: "https://www.youtube.com/shorts/M72h849Hkec",
     roomTourUrl: "https://www.youtube.com/watch?v=zWlhn8X_cc0",
+  },
+  6: {
+    roomPhotos: [G("03.jpg")],
+    view360Url: "https://www.youtube.com/shorts/bpwE-qKMI40",
+    roomTourUrl: "https://www.youtube.com/shorts/0mxU8IN-Jnc",
   },
 };
 
