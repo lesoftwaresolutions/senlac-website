@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import BookingButton from "@/components/BookingButton";
 import OfferCard from "@/components/OfferCard";
 import { Wifi, Award, Star, MapPin, Phone, Mail } from "lucide-react";
+import heroImg from "@assets/copy_36A160D1-060D-4B25-A687-F4BE3AA02424_1781732733788.JPEG";
 
 const BOOKING_URL = "https://via.eviivo.com/SenlacTN34";
 const BASE = "https://www.senlacguesthouse.co.uk/resources/gallery/";
@@ -58,7 +59,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img
-          src={`${BASE}01.jpg`}
+          src={heroImg}
           alt="Senlac Guest House Hastings"
           className="absolute inset-0 w-full h-full object-cover"
         />
