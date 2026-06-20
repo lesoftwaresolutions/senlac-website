@@ -6,6 +6,7 @@ import doubleSharedCardImg from "@assets/IMG_4903_1781733071979.JPG";
 import singleSharedCardImg from "@assets/copy_D2D0A4C2-3B19-4937-9E89-345F1AB78685_1781733266507.JPEG";
 import familyEnsuiteSmallCardImg from "@assets/IMG_4801_1781733507220.JPG";
 import familyPrivateMediumCardImg from "@assets/copy_647AA3A8-0110-4ECB-8DE8-94C65634269D_1781733666875.JPEG";
+import familyEnsuiteCardImg from "@assets/copy_0D8CFE16-C0E9-4C50-BCE7-78A8F5C42DC7_1781995810539.jpeg";
 import familySharedGardenImg from "@assets/IMG_4363_1778766981010.JPG";
 
 import ensuitePhoto1 from "@assets/IMG_4780_1779725063061.JPG";
@@ -188,7 +189,7 @@ const rooms = [
     description:
       "Generously sized family ensuite room sleeping up to 4 guests. Features complimentary wireless Internet, Smart TV, tea/coffee making facilities, mini fridge/wine cooler and private ensuite shower with complimentary toiletries — everything your family needs for a comfortable stay.",
     amenities: ENSUITE_AMENITIES,
-    imageUrl: G("03.jpg"),
+    imageUrl: familyEnsuiteCardImg,
     imageAlt: "Family Ensuite Room at Senlac Guest House",
   },
 ];
